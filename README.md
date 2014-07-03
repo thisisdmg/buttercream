@@ -1,0 +1,4 @@
+default
+=======
+
+Muffins Default Theme
