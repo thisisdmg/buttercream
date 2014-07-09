@@ -4,9 +4,9 @@
  */
 
 //special colors
-$color-brand-primary:             #f19fc1 !default; //beere
-$color-brand-secondary:           #FFF8DC !default; //vanille
-$color-info:                      #39b3d7 !default; //türkis
+$color-brand-primary:             #F43685 !default; //beere
+$color-brand-secondary:           #FFF9CA !default; //vanille
+$color-info:                      #39b3d7 !default; //türkis 
 $color-default:                   #ffffff !default; //weiß
 $color-success:                   #5cb85c !default; //grün
 $color-warning:                   #f0ad4e !default; //orange
@@ -25,6 +25,7 @@ $color-gray-lighter:                    #dfdfdf !default;
 
 //background
 $color-background-main:                 $color-white !default;
+$color-background-header:               $color-brand-primary !default;
 
 
 //quotes

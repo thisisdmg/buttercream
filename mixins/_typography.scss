@@ -11,19 +11,21 @@
 
  #{$name} {
     color: $color;
-    line-height: $line-height;
-    margin-bottom: ($space * 2);
     font: {
+      family: $font-stack-headline;
       size: $font-size;
       weight: bold;
+
     }
+    line-height: $line-height;
+    margin-bottom: ($space * 2);
 
     @include border-radius($border-radius-default);
 
     &:after {
+      clear: both;
       content: "";
       display: table;
-      clear: both;
     }
   }
 }
