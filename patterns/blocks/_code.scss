@@ -6,24 +6,23 @@
 
 pre {
   max-width: 100%;
-  padding: $space;
   padding: 0;
 }
 
 code { 
-  display: block;
   background-color: $background-code;
-  margin: 0;
   border: 1px solid darken($background-code, 10%);
+  display: block;
+  margin: 0;
 
   @include border-radius($border-radius-code);
 
   p & {
     display: inline-block;
-    padding: ($space / 2) $space;
     font-size: $font-size-code;
     line-height: $line-height-code;
     margin: 0 ($space / 2);
+    padding: ($space / 2) $space;
   }
 
   header {
@@ -37,12 +36,10 @@ code {
   }
 
   header, p {
-    padding:  $space;
-
     font-size: $font-size-code;
     line-height: $line-height-code;
-
     overflow-x: auto;
+    padding:  $space;
   }
 }
 

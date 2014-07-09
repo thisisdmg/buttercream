@@ -28,14 +28,21 @@
 @import "mixins/callouts-prompts";
 
 // IMPORT PATTERNS DEFINITION FILES
-@import "patterns/layout";
-@import "patterns/code";
-@import "patterns/typography";
-@import "patterns/buttons";
-@import "patterns/lists";
-@import "patterns/navigation";
-@import "patterns/callouts-prompts";
-@import "patterns/forms";
+  // BLOCK FILES
+
+  @import "patterns/blocks/code";
+  @import "patterns/blocks/typography";
+  @import "patterns/blocks/buttons";
+  @import "patterns/blocks/lists";
+  @import "patterns/blocks/forms";
+ 
+  // COMPONENT FILES
+  @import "patterns/components/navigation";
+  @import "patterns/components/callouts-prompts";
+
+  //MODULE FILES
+  @import "patterns/modules/layout";
+  @import "patterns/modules/header";
 
 // IMPORT JS COMPONENTS STYLING
 

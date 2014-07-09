@@ -52,15 +52,15 @@ dl {
  * V-Cards and addresses
  */
 .vcard, address {
-  display: inline-block;
-  margin:0;
   border: 1px solid $color-gray;
-  padding: ($space);
   font-style: normal;
+  display: inline-block;
+  padding: ($space);
+  margin:0;
 
   li {
-    margin: 0;
     display: block;
+    margin: 0;
 
     &.name {
       font-weight: bold;
