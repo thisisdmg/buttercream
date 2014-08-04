@@ -1,11 +1,8 @@
+/**
+ * Header pattern
+ * --------------------------------------
+ */
+
 header {
-  border-bottom: 3px solid $color-background-header;
-  
-  #logo {
-    float: left;
-    margin: $space 0;
-  }
-  nav {
-    float: right;
-  }
+  background-color: $color-background-header;
 }

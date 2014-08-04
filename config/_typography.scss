@@ -12,6 +12,14 @@ $font-stack-headline:   $font-stack-primary;
 $font-stack-menu:       $font-stack-primary;
 
 
+/**
+ * Page title
+ */
+
+ $font-size-page-title:   52px !default;
+ $line-height-page-title: 56px !default;
+
+
 /** 
  * Headlines 
  */
@@ -77,3 +85,11 @@ $line-height-code:          18px !default;
 
 // Links
 $font-color-link:            $color-brand-primary !default;
+
+
+/**
+ * Topbar
+ */
+
+$font-size-topbar:         18px !default;
+$line-height-topbar:       24px !default;

@@ -1,0 +1,45 @@
+/**
+  * Topbar pattern
+  * ----------------------------------------------
+  */
+
+nav.topbar {
+  border-bottom: 3px solid $color-background-header;
+  padding: $space ($space* 4);
+  
+}
+.page-title {
+  a{
+    font: {
+      family: $font-stack-primary;
+      size: $font-size-page-title;
+    }
+    line-height: $line-height-page-title;
+  }
+}
+.topbar-section {
+  padding: $space 0;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin: 0 ($space);
+
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        font: {
+          size: $font-size-topbar;
+        }
+        line-height: $line-height-topbar;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
