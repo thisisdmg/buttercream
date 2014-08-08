@@ -35,15 +35,18 @@
   @import "patterns/blocks/buttons";
   @import "patterns/blocks/lists";
   @import "patterns/blocks/forms";
+  @import "patterns/blocks/lines";
  
   // COMPONENT FILES
   @import "patterns/components/navigation";
   @import "patterns/components/callouts-prompts";
+  @import "patterns/components/feature-box";
 
   //MODULE FILES
   @import "patterns/modules/layout";
   @import "patterns/modules/header";
   @import "patterns/modules/topbar";
+  @import "patterns/modules/footer";
 
 // IMPORT JS COMPONENTS STYLING
 

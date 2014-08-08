@@ -67,3 +67,28 @@ dl {
     }
   }
 }
+
+/**
+ * Inline lists
+ */
+
+ ul.inline {
+    list-style: none;
+    padding: $space 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 ($space);
+
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        color: $color-text-default;
+      }
+    }
+  }
